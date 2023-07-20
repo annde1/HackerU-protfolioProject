@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+}
+body {
+  background-color: #e5eeff;
+  font-family: "Heebo", sans-serif;
+}
+.my-p1 {
+  font-size: 3em;
+  color: #0ee1da;
+  font-weight: bold;
+  direction: rtl;
+  text-align: center;
+}
+.my-p2 {
+  color: #f9f9f9;
+  font-size: 1.2em;
+  padding-left: 10%;
+  padding-right: 15%;
+  direction: rtl;
+  margin-top: -20px;
+  text-align: center;
+}
+.my-p3 {
+  margin-top: 1em;
+  font-size: 35px;
+  color: #ffffff;
+  text-align: center;
+}
+.my-p4 {
+  font-size: 1em;
+  color: #ffffff;
+  direction: rtl;
+  text-align: center;
+  padding-right: 15%;
+  padding-left: 10%;
+}
+.p-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+}
+.form-wrap {
+  padding: 50px;
+  display: grid;
+  grid-template-areas:
+    "label1"
+    "input1"
+    "label2"
+    "input2"
+    "label3"
+    "input3"
+    "btn";
+}
+.input-1,
+.input-2 {
+  height: 2.5em;
+  border: none;
+  border-bottom: 4px solid #0ee1da;
+}
+.input-3 {
+  height: 17em;
+  border: none;
+  border-bottom: 4px solid #0ee1da;
+}
+.btn {
+  margin-top: 10px;
+  height: 2.8em;
+  border: none;
+  background-color: #0ee1da;
+  font-weight: 700;
+  font-family: "Heebo", sans-serif;
+}
+.label-1,
+.label-2,
+.label-3 {
+  direction: rtl;
+  color: #0ee1da;
+  font-weight: bold;
+  /* margin-top: 10px; */
+}
+.label-2,
+.label-3 {
+  margin-top: 20px;
+}
+.label-1 {
+  grid-area: label1;
+}
+.label-2 {
+  grid-area: label2;
+}
+.label-3 {
+  grid-area: label3;
+}
+.input-1 {
+  grid-area: input1;
+}
+.input-2 {
+  grid-area: input2;
+}
+.input-3 {
+  grid-area: input3;
+}
+.btn {
+  grid-area: btn;
+}
+.my-wrapper {
+  /* width: 1184px; */
+  width: 100%;
+  /* margin: 0 auto; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.container-grid {
+  display: grid;
+  gap: 1.3rem;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-template-areas:
+    "photo1 photo2 my-div1 my-div1"
+    "photo3 photo4 my-div1 my-div1"
+    "photo5 photo6 photo7 photo8"
+    "my-form my-form photo9 photo10"
+    "my-form my-form photo11 photo12"
+    "my-form my-form photo13 photo14";
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.img1 {
+  grid-area: photo1;
+}
+.img2 {
+  grid-area: photo2;
+}
+.img3 {
+  grid-area: photo3;
+}
+.img4 {
+  grid-area: photo4;
+}
+.my-div1 {
+  /* width: 592px; */
+  background-color: #020253;
+  grid-area: my-div1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.my-form {
+  background-color: #8e097c;
+  grid-area: my-form;
+}
+.img5 {
+  grid-area: photo5;
+}
+.img6 {
+  grid-area: photo6;
+}
+.img7 {
+  grid-area: photo7;
+}
+.img8 {
+  grid-area: photo8;
+}
+.img9 {
+  grid-area: photo9;
+}
+.img10 {
+  grid-area: photo10;
+}
+.img11 {
+  grid-area: photo11;
+}
+.img12 {
+  grid-area: photo12;
+}
+.img13 {
+  grid-area: photo13;
+}
+.img14 {
+  grid-area: photo14;
+}
+@media screen and (max-width: 1350px) {
+  .container-grid {
+    display: grid;
+    /* gap: 1.3rem; */
+    grid-template-areas:
+      "my-div1 my-div1"
+      "my-div1 my-div1"
+      "photo1 photo2"
+      "photo3 photo4"
+      "photo5 photo6"
+      "photo7 photo8"
+      "my-form my-form"
+      "my-form my-form"
+      "my-form my-form"
+      "photo9 photo10"
+      "photo11 photo12"
+      "photo13 photo14";
+  }
+  .my-wrapper {
+    margin: 0;
+  }
+}

@@ -1,0 +1,85 @@
+.small-profile-icon {
+  width: 2.3em;
+  height: 2.3em;
+  position: absolute;
+  top: 7px;
+  left: 60px;
+  margin-right: 1em;
+}
+
+.navPad {
+  padding-right: 10px;
+}
+.navTitle {
+  //   margin-left: 140px;
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  font-family: "Parisienne", cursive;
+  font-size: 1.3em;
+}
+h1 {
+  font-family: $font;
+  font-weight: 700;
+}
+.pheader {
+  font-family: $font;
+  line-height: 1.2;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tikAvoda {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.myP {
+  padding: 30px 12px 30px 12px;
+  // line-height: 1.6;
+  text-align: center;
+}
+
+.hover-rotate img {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.hover-rotate:hover img {
+  transform: scale(1.3) rotate(20deg);
+}
+nav {
+  font-family: $font;
+  font-size: 25px;
+}
+@media screen and (max-width: 993px) {
+  .small-profile-icon {
+    width: 1.9em;
+    height: 1.9em;
+    position: absolute;
+    top: 7px;
+    left: 2em;
+  }
+  .navTitle {
+    font-size: 1em;
+    margin-left: -20px;
+  }
+}
+/*Doesnt work */
+@media screen and (max-width: 335px) {
+  .navTitle {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 280px) {
+  .small-profile-icon {
+    width: 1.7em;
+    height: 1.7em;
+    position: absolute;
+    top: 7px;
+    left: 0.8em;
+  }
+}

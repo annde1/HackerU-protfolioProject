@@ -1,0 +1,19 @@
+.aboutMe {
+  font-family: $font;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+img[src="profile-image.png"] {
+  width: 120px;
+  height: 120px;
+}
+.about {
+  padding-bottom: 40px;
+}
+h2 {
+  font-weight: 600;
+}

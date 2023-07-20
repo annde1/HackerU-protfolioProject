@@ -1,0 +1,133 @@
+h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 11em;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 0px 0px 36px #00000087;
+  margin-bottom: 10px;
+}
+.container {
+  background: transparent linear-gradient(180deg, #281eff 0%, #2dff8c 100%) 0%
+    0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-family: "Varela Round", sans-serif;
+  color: #ffffff;
+}
+.myClass {
+  font-size: 3em;
+  direction: rtl;
+}
+.description {
+  font-size: 1.5em;
+  direction: rtl;
+  padding: 0 100px;
+  text-align: center;
+}
+.my-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.my-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 330px;
+  align-items: flex-end;
+  justify-content: center;
+}
+label {
+  color: #ffffff;
+  font-family: "Varela Round", sans-serif;
+  margin-top: 10px;
+  font-size: 1.4em;
+}
+input {
+  width: 30em;
+  height: 3.7em;
+  margin-left: 10px;
+
+  border: 2px solid #ffffff;
+  background: #f6f6f624 0% 0% no-repeat padding-box;
+}
+button {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: none;
+  width: 17em;
+  height: 4.2em;
+  padding-bottom: 1px;
+  font-family: "Varela Round", sans-serif;
+}
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 0.8em;
+  }
+  .my-container {
+    flex-direction: column;
+  }
+  .description {
+    padding: 0 170px;
+    text-align: center;
+  }
+  button {
+    margin-top: 20px;
+    width: 30.5em;
+  }
+}
+@media screen and (max-width: 680px) {
+  body {
+    font-size: 0.5em;
+  }
+  .container {
+    padding-top: 80px;
+  }
+  .description {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 520px) {
+  body {
+    font-size: 0.4em;
+  }
+  .container {
+    padding-top: 80px;
+  }
+  .description {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 470px) {
+  body {
+    font-size: 0.4em;
+  }
+
+  input,
+  label {
+    direction: rtl;
+    margin: 0 60px;
+    width: 70vw;
+    margin-top: 10px;
+  }
+
+  button {
+    width: 72vw;
+    margin: 20px 60px;
+  }
+}
+@media screen and (max-width: 350px) {
+  body {
+    font-size: 0.3em;
+  }
+  .description {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 267px) {
+  body {
+    font-size: 0.2em;
+  }
+}

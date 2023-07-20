@@ -1,0 +1,150 @@
+img {
+  height: 600px;
+}
+.top-small-img {
+  display: none;
+}
+
+.mainContainer {
+  position: relative;
+}
+
+.formContainer {
+  direction: rtl;
+  padding: 50px 0;
+  margin: 0 100px;
+}
+
+.btn {
+  margin-top: 40px;
+  width: 100px;
+  color: #003567;
+  font-weight: 700;
+  border-radius: 0;
+}
+
+.input3 {
+  height: 100px;
+}
+
+.input1,
+.input2,
+.input3 {
+  background-color: #e5eeff;
+  border-bottom: 3px solid #fdbd03;
+}
+
+label,
+h1 {
+  color: #fdbd03;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+p {
+  color: #003567;
+  padding-left: 100px;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+/* .icon {
+    height: 80px;
+    margin: 20px;
+    background-color: #FDBD03;
+    border-radius: 40%;
+    padding: 30px;
+    border: 1px solid #FDBD03;
+} */
+
+.iconWhatsapp {
+  height: 50px;
+  background-color: #fdbd03;
+  border-radius: 50%;
+  border: 9px solid #fdbd03;
+  position: absolute;
+  top: 4%;
+  left: 4%;
+}
+
+.tik-tok-icon {
+  fill: hsla(0, 0%, 50%, 1);
+  /* width: 80%; */
+  height: 30px;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fdbd03;
+  padding: 10px;
+  margin: 10px;
+}
+
+.botLine {
+  margin-top: 20px;
+  width: 55%;
+  height: 10px;
+  background-color: #fdbd03;
+}
+
+.topLine {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 10px;
+  background-color: #fdbd03;
+}
+
+.topSpacer {
+  height: 60px;
+}
+@media screen and (max-width: 980px) {
+  .top-small-img {
+    display: block;
+    text-align: center;
+  }
+
+  .img-2 {
+    height: 300px;
+  }
+  .my-img {
+    display: none;
+  }
+  .iconWhatsapp {
+    display: none;
+  }
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  p {
+    font-size: 1em;
+    text-align: center;
+    padding: 5px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .botLine {
+    width: 100%;
+  }
+  .topLine {
+    width: 90%;
+  }
+  .formContainer {
+    margin: 40px;
+  }
+}
+.form-control {
+  border-radius: 0; /* Remove rounded corners */
+}

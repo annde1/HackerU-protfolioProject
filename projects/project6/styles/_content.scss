@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $font !important;
+}
+.pa-1 {
+  color: $primaryColor;
+  font-size: $sizePrimary;
+  font-weight: bold;
+  direction: rtl;
+}
+.pa-2 {
+  direction: rtl;
+  font-size: $sizeSecondary;
+}
+
+form {
+  direction: rtl;
+}
+input {
+  border: none;
+  border-bottom: 0.3em solid $primaryColor;
+  background-color: $secondaryColor;
+  height: 3em;
+}
+button {
+  background-color: $primaryColor;
+  color: #fff;
+  border: none;
+  padding: 0.5em;
+  width: 8em;
+  margin-top: 1.5em !important;
+}
+
+@media (min-width: 0) {
+  input {
+    width: 100%;
+  }
+
+  .form-wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 1999px) {
+  form {
+    padding: 0 3em;
+  }
+  .pa-1,
+  .pa-2 {
+    text-align: center;
+  }
+  .pa-2 {
+    padding: 0 1.5em;
+  }
+}
+@media (min-width: 1200px) {
+  .form-wrapper {
+    width: 60%;
+    margin-left: 5em;
+    margin-top: -2em;
+  }
+
+  .coffe {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .pa-1 {
+    // font-size:
+    font-size: $smallerPrimary;
+  }
+  .pa-2 {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 1200px) {
+  .pa-1 {
+    margin-top: 1em;
+  }
+}

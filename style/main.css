@@ -1,0 +1,163 @@
+.small-profile-icon {
+  width: 2.3em;
+  height: 2.3em;
+  position: absolute;
+  top: 7px;
+  left: 60px;
+  margin-right: 1em;
+}
+
+.navPad {
+  padding-right: 10px;
+}
+
+.navTitle {
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  font-family: "Parisienne", cursive;
+  font-size: 1.3em;
+}
+
+h1 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+}
+
+.pheader {
+  font-family: "Heebo", sans-serif;
+  line-height: 1.2;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tikAvoda {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.myP {
+  padding: 30px 12px 30px 12px;
+  text-align: center;
+}
+
+.hover-rotate img {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.hover-rotate:hover img {
+  transform: scale(1.3) rotate(20deg);
+}
+
+nav {
+  font-family: "Heebo", sans-serif;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 993px) {
+  .small-profile-icon {
+    width: 1.9em;
+    height: 1.9em;
+    position: absolute;
+    top: 7px;
+    left: 2em;
+  }
+  .navTitle {
+    font-size: 1em;
+    margin-left: -20px;
+  }
+}
+/*Doesnt work */
+@media screen and (max-width: 335px) {
+  .navTitle {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 280px) {
+  .small-profile-icon {
+    width: 1.7em;
+    height: 1.7em;
+    position: absolute;
+    top: 7px;
+    left: 0.8em;
+  }
+}
+.aboutMe {
+  font-family: "Heebo", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+img[src="profile-image.png"] {
+  width: 120px;
+  height: 120px;
+}
+
+.about {
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.projects {
+  background-color: #f6f6f6;
+  font-family: "Heebo", sans-serif;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.space {
+  margin-left: 1.5em;
+  margin-right: 1em;
+  margin-top: 1.5em;
+}
+
+footer {
+  background-color: #3a3a3a;
+  font-family: "Heebo", sans-serif;
+}
+
+.custom-bg-color {
+  background-color: #3a3a3a;
+}
+
+.py-6 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.img-smaller {
+  width: 4.2em;
+  height: 4.2em;
+}
+
+.p-description {
+  font-size: 1.1em;
+}
+
+.my-heading {
+  padding-top: 1.7em;
+}
+
+@media screen and (max-width: 880px) {
+  .img-smaller {
+    width: 3em;
+    height: 3em;
+  }
+  .p-description {
+    font-size: 0.7em;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+footer {
+  background-color: $bgcFooter;
+  font-family: $font;
+}
+.custom-bg-color {
+  background-color: $bgcFooter;
+}
+.py-6 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.img-smaller {
+  width: 4.2em;
+  height: 4.2em;
+}
+.p-description {
+  font-size: 1.1em;
+}
+.my-heading {
+  padding-top: 1.7em;
+}
+@media screen and (max-width: 880px) {
+  .img-smaller {
+    width: 3em;
+    height: 3em;
+  }
+  .p-description {
+    font-size: 0.7em;
+  }
+}

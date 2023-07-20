@@ -1,0 +1,72 @@
+body {
+  direction: rtl;
+  font-family: "Heebo", sans-serif;
+}
+label {
+  color: #011560;
+}
+
+.lemon {
+  border: none;
+  border-bottom: 4px solid #d3e10e;
+  background: #f6f6f6 0% 0% no-repeat padding-box;
+  height: 50px;
+}
+
+button {
+  background: #d3e10e 0% 0% no-repeat padding-box;
+  border: none;
+  width: 166px;
+  height: 50px;
+}
+.my-p1 {
+  font-size: 5.3rem;
+  font-weight: bold;
+  color: #d3e10e;
+}
+.my-p2 {
+  font-size: 1.25rem;
+  color: #f9f9f9;
+}
+.image-wrapper {
+  position: relative;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Media query to hide the overlay text when the image is smaller */
+@media (max-width: 576px) {
+  .image-overlay {
+    display: none;
+  }
+}
+@media (max-width: 1135px) {
+  .my-p1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #d3e10e;
+  }
+  .my-p2 {
+    font-size: 0.7rem;
+    color: #f9f9f9;
+  }
+}
+@media (max-width: 750px) {
+  .my-p1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d3e10e;
+  }
+  .my-p2 {
+    font-size: 0.55rem;
+    color: #f9f9f9;
+  }
+}
