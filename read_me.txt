@@ -11,6 +11,8 @@ css/: This directory contains the CSS styles for the website.
 
 scss/: The SCSS files for custom styling. The SCSS files are compiled into the css/ directory.
 
+projects/JavaScript Projects: this repository contains the projects I've built using JavaScript
+
 Website Navigation:
 Clicking on my name (Anna Depta) in the navigation bar will always take you to the main page.
 
@@ -37,32 +39,6 @@ To view the portfolio website, simply open the index.html file in your web brows
 
 Feel free to explore the different projects and learn more about me through the content provided on the website.
 
-/////////////////////////////////////////////////////////////////
-
-Dice Game - Instructions
-
-I built this game while taking a JavaScript course on Udemy.
-
-Welcome to the Dice Game! This is a simple two-player game where each player takes turns rolling a dice and trying to reach 100 points to win.
-
-Game Rules
-Objective: The objective of the game is to be the first player to reach 100 points.
-
-Game Setup: To start the game, click on the "New Game" button. This will reset all scores and set the first player as the active player.
-
-Taking Turns: The game has two players. Each player takes turns to roll the dice by clicking on the "Roll Dice" button. The dice roll generates a random number between 1 and 6.
-
-Scoring: When a player rolls the dice:
-
-If the player rolls a number other than 1, the number rolled is added to the player's current score.
-If the player rolls a 1, the player loses their current score, and it becomes the next player's turn.
-Holding Score: To avoid losing their current score, a player can choose to "Hold" their current score by clicking on the "Hold" button. The current score will then be added to the player's total score, and it becomes the next player's turn.
-
-Winning the Game: The game continues until one of the players reaches 100 points. The first player to reach or exceed 100 points wins the game.
-
-Starting a New Game: To start a new game at any point, click on the "New Game" button. This will reset all scores and set the first player as the active player.
-
-/////////////////////////////////////////////
 
 Contact Information
 If you have any questions or inquiries, feel free to contact me at annadepta61@gmail.com.
