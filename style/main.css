@@ -160,4 +160,17 @@ footer {
   .p-description {
     font-size: 0.7em;
   }
+}
+.play-center {
+  background-color: rgb(246, 246, 246);
+}
+
+.play-center-heading {
+  font-family: "Heebo", sans-serif;
+}
+
+.game-title,
+.game-description,
+.btn-outline-info {
+  font-family: "Heebo", sans-serif;
 }/*# sourceMappingURL=main.css.map */
